@@ -1,0 +1,179 @@
+/*General*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*General*/
+
+/*nav*/
+.navbar {
+  height: 100px;
+}
+.enno-head {
+  margin-left: 80px;
+}
+.enno-head {
+  color: rgb(107, 103, 103);
+}
+.option:hover {
+  color: green;
+}
+.navs-bar {
+  display: flex;
+  gap: 30px;
+  margin-left: 250px;
+}
+.bg-white {
+  box-shadow: rgba(148, 155, 163, 0.2) 0px 2px 25px;
+}
+.get-btn {
+  background-color: rgb(11, 185, 11);
+  border-radius: 20px;
+  width: 100px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.get-btn:hover {
+  background-color: rgb(64, 217, 64);
+}
+.btn-2 {
+  height: 40px;
+  width: 140px;
+}
+.play-btn {
+  margin-left: 40px;
+  color: rgb(82, 214, 82);
+  height: 20px;
+  width: 30px;
+  cursor: pointer;
+}
+.btn-play {
+  font-weight: 600;
+  font-size: 20px;
+}
+.watchvideo {
+  font-size: medium;
+  font-weight: 600;
+}
+.icon {
+  color: rgb(63, 190, 63);
+}
+.boxes {
+  background-color: rgb(245, 245, 245);
+}
+.about {
+  position: relative;
+  font-size: 50px;
+}
+.about-one {
+  color: rgb(213, 213, 213);
+}
+.about-two {
+  position: absolute;
+  top: 35px;
+}
+.para {
+  font-size: 20px;
+}
+.span {
+  margin-top: 10px;
+}
+.cont-four-icons {
+  height: 55px;
+  width: 55px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 154, 3);
+}
+.cont-boxes {
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.cont-four-para {
+  font-size: 13px;
+}
+.lists-nav {
+  display: flex;
+}
+.img-hover {
+  height: 100px;
+  width: 80%;
+  bottom: 5px;
+  left: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.testimony {
+  background-color: rgb(225, 225, 225);
+}
+.img-testi {
+  width: 80px;
+  border-radius: 50px;
+  bottom: -47px;
+  left: 22px;
+  border: 6px solid white;
+}
+
+.testi-quotes {
+  padding: 20px 20px 60px;
+}
+.testi-iconss {
+  color: green;
+  cursor: pointer;
+}
+.testi-iconss :hover {
+  background-color: rgb(70, 214, 70);
+}
+.cont-six {
+  background-color: rgb(70, 202, 103);
+  height: 280px;
+}
+.call-button {
+  background-color: rgb(79, 203, 108);
+  border: 2px solid rgb(245, 245, 245);
+  border-radius: 30px;
+  color: white;
+  padding: 10px 42px 11px 40px;
+  text-align: center;
+}
+.call-button:hover {
+  background-color: rgb(105, 193, 105);
+}
+.last-iconss {
+  font-size: 20px;
+  color: rgb(186, 186, 186);
+  cursor: pointer;
+}
+.last-iconss :hover {
+  background-color: green;
+}
+.location {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgb(150, 248, 164);
+  border-radius: 50px;
+  font-size: 20px;
+
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.location:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+}
+.walter-box {
+  top: 250px;
+  left: 17px;
+  width: 320px;
+  padding: 5px;
+  height: 10px;
+}
